@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+/*
+#rot{
+    transform: rotate(20deg);
+}
+*/
+#grad1{
+    height:75px;
+    width: 100%;
+    background-color: aqua;
+    background-image: linear-gradient(blue,yellow);
+    background-image: conic-gradient(red,yellow,orange);
+    transform: rotate(20deg);
+}
+#grad2{
+    height: 200px;
+    background-color: aquamarine;
+    background-image: linear-gradient(white,red);
+}
+header{
+    background-color: aquamarine;
+    color: blueviolet;
+    padding: 20px;
+}
+nav a{
+    color:blueviolet;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: antiquewhite;
+
+}
+main{
+    background-color: antiquewhite;
+    padding: 50px;
+    text-align: center;
+}
+main h2{
+    color: black;
+
+}
+main p{
+    color: rgb(114, 8, 212);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+
+
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px #333;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:aqua;
+    background-color:rgb(240, 243, 245);
+    padding: 50px;
+
+}
+.menu-Item{
+    flex-basis: 30%;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px #999;
+    padding:20px;
+    text-align: center;
+
+}
+.menu-Item img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.menu-Item h3{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.menu-Item p{
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+footer p{
+    font-size: 16px;
+    margin: 0;
+
+}
+header{
+    background: linear-gradient(to bottom,aquamarine);
+}
+nav a:hover{
+    background: linear-gradient(to bottom,aquamarine);
+}
+section{
+    background: radial-gradient(circle,#eee 100%);
+}
+.menu-Item:hover{
+    background: linear-gradient(to bottom,#fff 100%);
+    transform: translateY(-5px);
+}
+footer{
+    background: linear-gradient(to bottom,#333 100%);
+}
